@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  option {
+    height: 100px;
+  }
+
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #333; /* Dark background color */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list style */
+  }
+  
+  li {
+    display: inline; /* Display list items horizontally */
+  }
+  
+  li a {
+    display: inline-block; /* Display links as blocks */
+    padding: 10px 20px; /* Add padding to the links */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+  }
+  
+  /* Styling the right-aligned links */
+  .right {
+    float: right; /* Float the list items to the right */
+  }

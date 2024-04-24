@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="right"><a href="#">Register</a></li>
+          <li class="right"><a href="#">Login</a></li>
+        </ul>
+      </nav>
+
+  <div class="container">
+    <h1>Registration</h1>
+    <form action="#">
+        <label>How you heard about us?</label>
+        <select name="Media">
+          <option type="text" value="Linkedin">Linkedin</option>
+          <option type="text" value="Facebook">Facebook</option>
+          <option type="text" value="Glassdoor">Glassdoor</option>
+          <option type="text" value="Other" selected>Other</option>
+        </select>
+      
+        <!-- <input type="submit"> -->
+      </form>
+      <br/>
+    <form>
+      <label for="username">Enter Your Name:</label>
+      <input type="text" id="username" name="username">
+      <label for="latname">Enter Your Last Name:</label>
+      <input type="text" id="lastname" name="lastname">
+      <label for="email">Enter Your Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="password">Enter Your Password:</label>
+      <input type="password" id="password" name="password">
+
+      <fieldset>
+        <label>Male
+           <input type="radio" name="radio" id="radio1" />
+        </label><br>
+        <label>Female
+           <input type="radio" name="radio" id="radio2" />
+        </label><br>
+
+     </fieldset>
+
+
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="../Login/index.html">Login here</a>.</p>
+  </div>
+</body>
+</html>
