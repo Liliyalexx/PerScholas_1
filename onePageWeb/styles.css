@@ -1,0 +1,56 @@
+nav {
+    background-color: #28b5d8; /* Dark background color */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list style */
+  }
+  
+  li {
+    display: inline; /* Display list items horizontally */
+  }
+  
+  li a {
+    display: inline-block; /* Display links as blocks */
+    padding: 10px 20px; /* Add padding to the links */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+  }
+  
+  /* Styling the right-aligned links */
+  .right {
+    float: right; /* Float the list items to the right */
+  }
+  nav ul li img {
+    height: 50px; 
+  }
+
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #333; /* Dark background color */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list style */
+  }
+  
+  li {
+    display: inline; /* Display list items horizontally */
+  }
+  
+  li a {
+    display: inline-block; /* Display links as blocks */
+    padding: 10px 20px; /* Add padding to the links */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+  }
+  
+  /* Hover effect for links */
+  li a:hover {
+    background-color: #555; /* Darker background color on hover */
+  }
