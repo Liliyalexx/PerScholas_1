@@ -1,56 +1,126 @@
 nav {
-    background-color: #28b5d8; /* Dark background color */
+    background-color: #28b5d8; 
   }
   
   ul {
-    list-style-type: none; /* Remove default list style */
+    list-style-type: none; 
   }
   
   li {
-    display: inline; /* Display list items horizontally */
+    display: inline; 
   }
   
   li a {
-    display: inline-block; /* Display links as blocks */
-    padding: 10px 20px; /* Add padding to the links */
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* White text color */
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #fff; 
   }
   
-  /* Styling the right-aligned links */
   .right {
-    float: right; /* Float the list items to the right */
+    float: right; 
+    margin-top: 
   }
   nav ul li img {
     height: 50px; 
   }
 
   body, ul {
+    
     margin: 0;
     padding: 0;
+  }
+  body{
+    font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
   }
   
   /* Styling the navigation bar */
   nav {
-    background-color: #333; /* Dark background color */
+    background-color: #acd5e3; 
   }
   
   ul {
-    list-style-type: none; /* Remove default list style */
+    list-style-type: none; 
   }
   
   li {
-    display: inline; /* Display list items horizontally */
+    display: inline; 
   }
   
   li a {
-    display: inline-block; /* Display links as blocks */
-    padding: 10px 20px; /* Add padding to the links */
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* White text color */
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #fff; 
   }
   
   /* Hover effect for links */
   li a:hover {
-    background-color: #555; /* Darker background color on hover */
+    background-color: #97c4db; 
   }
+img.logo {
+  width: 80px; 
+  height: auto; 
+}
+
+  .logo {
+    width: 10px; 
+    height: auto; 
+  }
+
+  .logo-text {
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    fieldset {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    legend {
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="checkbox"] {
+      margin-left: 5px;
+    }
+
+    select {
+      margin-left: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 10px;
+    }
+    .about{
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+
+    }
+   
+

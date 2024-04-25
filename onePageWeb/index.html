@@ -9,13 +9,16 @@
 <body>
     <nav>
         <ul>
-        <li><a href="#"><img src="petswap_logo.png" alt="PetSwap"></a></li>
+        <li><a href="#"><img class="logo" src="./logo/dog.jpeg" alt = "PetSwap"/>
+               <span class="logo-text"> PetSwap</span>
+            </a>
+         </li>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="./About/index.html">About</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="liliya@mail.com">Contact</a></li>
-          <li class="right"><a href="../Register/index.html">Register</a></li>
-          <li class="right"><a href="../Login/index.html">Login</a></li>
+          <li><a href="./Contact/index.html">Contact</a></li>
+          <li class="right"><a href="./Registration/index.html">Register</a></li>
+          <li class="right"><a href="./Login/index.html">Login</a></li>
         </ul>
       </nav>
       <img
@@ -25,42 +28,70 @@
       height="400"
     />
 
-    <form action="#">
-        <label>Choose your Location:</label>
-        <select name="districts">
-          <option value="Lynnwood">Lynnwood</option>
-          <option value="Bothell">Bothell</option>
-          <option value="Bellevue">Bellevue</option>
-          <option value="Seattle" selected>Seattle</option>
-        </select>
-      
-        <input type="submit">
+     <div class="container">
+        <form action="#">
+           <p class="about">Welcome to <super>PetSwap</super>, your one-stop destination for finding caring hosts for
+              your beloved furry friends while you're
+              away on vacation. With PetSwap, you can easily connect with local dog owners who are willing to provide a
+              comfortable and loving environment for your dogs, ensuring they receive the attention and care they
+              deserve in your
+              absence.
+
+              Our platform simplifies the process of finding suitable hosts for your dogs by enabling you to browse
+              through a list
+              of available hosts in your area. Whether you're planning a weekend getaway or an extended vacation,
+              PetSwap allows
+              you to search for hosts who are available during your desired dates.
+
+              Not only does PetSwap provide a practical solution for finding dog sitters, but it also fosters a sense of
+              community
+              among dog owners. By connecting with other dog lovers in your neighborhood, you can arrange playdates,
+              walks, and
+              bonding experiences for your dogs, creating lasting friendships and memories.
+
+              Join PetSwap today and ensure your dogs are well-cared for and happy while you're away, while also
+              enjoying the
+              opportunity to connect with fellow dog owners and their canine companions. 
+              <br/>Happy swapping!
+           </p>
+        </form>
+     </div>
+   <div class="container">
+      <form action="#">
+         <label>Choose your Location:</label>
+         <select name="districts">
+            <option value="Lynnwood">Lynnwood</option>
+            <option value="Bothell">Bothell</option>
+            <option value="Bellevue">Bellevue</option>
+            <option value="Seattle" selected>Seattle</option>
+         </select>
+         <input type="submit">
       </form>
-      <br/>
+      <br>
       <fieldset>
-          <legend>The name and breed of your dog</legend>
-          <label>Name
-             <input type="Small" name="Small" id="Small" />
-          </label><br>
-          <label>Breed
-             <input type="Middle" name="Middle" id="Middle" />
-          </label><br>
-          <label>Age
-             <input type="Big" name="Big" id="Big" />
-          </label>
-       </fieldset>
-       <br/>
-       <fieldset>
-          <legend>Size of your dog</legend>
-          <label for="checkbox">Small
-             <input type="checkbox" name="checkbox" id="checkbox" />
-          </label>
-          <label for="checkbox">Middle
-             <input type="checkbox" name="checkbox" id="checkbox" />
-          </label>
-          <label for="checkbox">Big
-             <input type="checkbox" name="checkbox" id="checkbox" />
-          </label>
-       </fieldset>
+         <legend>The name and breed of your dog</legend>
+         <label>Name
+            <input type="text" name="Small" id="Small" />
+         </label><br>
+         <label>Breed
+            <input type="text" name="Middle" id="Middle" />
+         </label><br>
+         <label>Age
+            <input type="text" name="Big" id="Big" />
+         </label>
+      </fieldset>
+      <fieldset>
+         <legend>Size of your dog</legend>
+         <label for="small">Small
+            <input type="checkbox" name="checkbox" id="small" />
+         </label>
+         <label for="middle">Middle
+            <input type="checkbox" name="checkbox" id="middle" />
+         </label>
+         <label for="big">Big
+            <input type="checkbox" name="checkbox" id="big" />
+         </label>
+      </fieldset>
+   </div>
 </body>
 </html>

@@ -61,25 +61,25 @@ body {
   
   /* Styling the navigation bar */
   nav {
-    background-color: #333; /* Dark background color */
+    background-color: #333; 
   }
   
   ul {
-    list-style-type: none; /* Remove default list style */
+    list-style-type: none; 
   }
   
   li {
-    display: inline; /* Display list items horizontally */
+    display: inline; 
   }
   
   li a {
-    display: inline-block; /* Display links as blocks */
-    padding: 10px 20px; /* Add padding to the links */
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* White text color */
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #fff; 
   }
   
   /* Styling the right-aligned links */
   .right {
-    float: right; /* Float the list items to the right */
+    float: right;
   }
